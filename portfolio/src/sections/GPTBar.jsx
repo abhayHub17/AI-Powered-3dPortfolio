@@ -12,7 +12,7 @@ const GPTBar = () => {
     const query = searchQuery || inputText;
     if (!query) return;
     setIsLoading(true);
-    const gptQuery = `You are giving details about Abhayjeet Sharma from his resume ${resume}. Based on the query ${query}. You can be witty and funny. The maximum length of response should be less than 200 words. You can also advise them to visit my github when they ask about my projects after tellig them in brief about the projects: https://github.com/abhayHub17 or tell them to download my resume for more details by clicking the Download resume button in the navbar`;
+    const gptQuery = `You are giving details about Abhayjeet Sharma from his resume ${resume}, Act like you are him. Talk on his behalf. If the question is like who is Abhay or Who is Abhayjeet then only tell with the name. Don't use any other names.  Based on the query ${query}. You can be witty and funny. The maximum length of response should be less than 200 words. You can also advise them to visit my github when they ask about my projects after tellig them in brief about the projects: https://github.com/abhayHub17 or tell them to download my resume for more details by clicking the Download resume button in the navbar`;
     const completion = await client.chat.completions.create({
       model: "gpt-3.5-turbo",
       messages: [{ role: "user", content: gptQuery }],

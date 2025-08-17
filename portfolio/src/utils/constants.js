@@ -84,6 +84,14 @@ const abilities = [
 
 const techStackImgs = [
   {
+    name: "React",
+    imgPath: "/images/logos/react.png",
+  },
+  {
+    name: "NodeJS",
+    imgPath: "/images/logos/node.png",
+  },
+  {
     name: "Redux",
     imgPath: "/images/logos/Redux.png",
   },
@@ -125,9 +133,9 @@ const expCards = [
     title: "Full Stack Developer",
     date: "Oct 2024 - present",
     responsibilities: [
-      "Contributed to a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application for managing global financial workflows and role-based access.",
-      "Developed a Node.js + Express.js backend to interface securely with SharePoint APIs, enabling data retrieval, permission validation, and config management.",
-      "Built a React-based frontend using react-router-dom for role-specific views (Admin, Reviewer, Submitter)",
+      "Contributed to a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application managing financial workflows and role-based access across 10+ global teams.",
+      "Developed a Node.js + Express.js backend integrating securely with SharePoint APIs, improving data retrieval efficiency by 30% and ensuring robust permission validation.",
+      "Built a React-based frontend using react-router-dom with role-specific views (Admin, Reviewer, Submitter), enhancing user task accuracy by 25%.",
     ],
   },
   {
@@ -138,9 +146,9 @@ const expCards = [
     title: "Frontend Developer",
     date: "Nov 2023 - Oct 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Novartis employee website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability by implementing lazy loading.",
+      "Developed and maintained user-facing features for the Novartis employee website, used by 1,000+ employees daily.",
+      "Collaborated closely with UI/UX designers to ensure seamless user experiences, reducing reported UI issues by 40%.",
+      "Optimized web applications for maximum speed and scalability by implementing lazy loading, resulting in a 35% decrease in initial page load time.",
     ],
   },
   {
@@ -171,51 +179,6 @@ const expLogos = [
   {
     name: "logo3",
     imgPath: "/images/logo3.png",
-  },
-];
-
-const testimonials = [
-  {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
-  },
-  {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
   },
 ];
 
@@ -255,6 +218,18 @@ Project: Transfer Pricing Web Application\
 •	Created dynamic forms, approval workflows, and country/division management features with modular components.\
 •	Collaborated with cross-functional teams to deliver a secure, scalable solution tailored to global finance operations at Novartis.\
 Projects\
+AI-Powered 3D Portfolio							July 2025 - August 2025\
+React.js, Three.js, OpenAI GPT-3.5, GSAP, Tailwind CSS			Github \
+•	Developed a portfolio site featuring real-time AI chat powered by GPT-3.5 for personalized answers.\
+•	Crafted interactive 3D visuals and models using Three.js to create a striking, immersive user experience.\
+•	Utilized GSAP for smooth, scroll-triggered animations enhancing visual engagement.\
+Dev-Connect: A Full-Stack Networking Platform				June 2025 - July 2025\
+React.js, Redux Toolkit, Node.js, Express.js, MongoDB, Axios, Tailwind CSS	Github \
+•	Developed a professional networking web app that helps developers discover and connect with like-minded peers\
+•	Implemented secure authentication and session management with Redux for seamless user access.\
+•	Built profile management features enabling users to view and update personal details with real-time syncing.\
+•	Implemented connection requests allowing users to send, accept, and reject invitations.\
+•	Created a dynamic user feed displaying profiles with interactive User Card components.\
 AI-Powered Movie Recommendation Web App				May 2025 - June 2025\
 React, Redux Toolkit, OpenAI GPT-3.5, Firebase, Tailwind CSS			Github 	Demo\
 •	Built a full-stack movie recommendation platform powered by OpenAI GPT-3.5, allowing users to get curated suggestions via natural language input.\
@@ -279,7 +254,6 @@ export {
   logoIconsList,
   expCards,
   expLogos,
-  testimonials,
   socialImgs,
   techStackIcons,
   techStackImgs,
